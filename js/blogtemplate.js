@@ -27,6 +27,8 @@ function LoadBlogPost(BlogTitle, BlogContent) {
                 </td>
             </tr>
         </table>
-        <nav></nav>
+        <nav>
+            <a href="./index.html">Back</a>
+        </nav>
     </body>`;
 }
