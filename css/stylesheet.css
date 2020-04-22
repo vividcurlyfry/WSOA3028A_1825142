@@ -1,0 +1,35 @@
+body {
+    background-color: #F3EDEA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-items: center;
+    grid-auto-rows: 100px;
+    justify-content: center;
+    background-color: #F3EDEA;
+    color: #444;
+}
+
+.c {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+h1 {
+    color: #CE3D33;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: #293944;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: #29242B;
+    font-size: 50px;
+
+}
