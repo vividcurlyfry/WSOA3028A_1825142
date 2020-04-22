@@ -1,5 +1,5 @@
 function LoadBlogPost(BlogTitle, BlogContent) {
-    document.getElementsByTagName("addBlog")[0].innerHTML +=
+    document.getElementById("addBlog").innerHTML +=
         `<head>
         <title>Sadie Garner</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +16,13 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <table width=50%>
             <tr>
                 <td>
-                    <h2>Hello</h2>
+                    <h2>` + BlogTitle + `</h2>
                 </td>
             </tr>
             <tr>
                 <td colspan=2>
-                    <article> 
-                        Help
+                    <article> ` + BlogContent + `
+    
                     </article>
                 </td>
             </tr>
