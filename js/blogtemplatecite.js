@@ -29,9 +29,9 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
                 <tr>
                     <td>
                         <h3>References</h3>
-                        <article>
-                            
-                        </article>
+                        <article>`
+        + References +
+        `</article>
                     </td>
                 </tr>
         </table>
