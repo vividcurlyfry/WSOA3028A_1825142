@@ -43,3 +43,4 @@ function LoadBlogPost(BlogTitle, BlogContent) {
             <a href="./index.html">Back</a>
         </nav>
     </body>`;
+}
