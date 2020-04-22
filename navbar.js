@@ -1,3 +1,8 @@
-$(document).ready(function () {
-    $("#navbar-frame").load("navbar.html");
-});
+function generateNav() {
+    `<nav>
+        <a href="/WSOA3028A_1825142/index.html">Home</a>
+        <a href="/WSOA3028A_1825142/Victims/">The Victims</a>
+        <a href="/WSOA3028A_1825142/Blogs/">Blogs</a>
+        <a href=""/WSOA3028A_1825142/Contact.html">Contact</a>
+    </nav>`
+}
