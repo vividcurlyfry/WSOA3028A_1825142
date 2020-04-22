@@ -11,15 +11,10 @@ function LoadBlogPost(BlogTitle, BlogContent) {
     
     <body onload='goBack()'>
         <hr>
-        <h1>Blog Post 1</h1>
+        <h1>` + BlogTitle + `</h1>
         <hr>
     
         <table width=50%>
-            <tr>
-                <td>
-                    <h2>` + BlogTitle + `</h2>
-                </td>
-            </tr>
             <tr>
                 <td colspan=2>
                     <article> ` + BlogContent + `
