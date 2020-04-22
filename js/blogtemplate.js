@@ -16,13 +16,13 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <table width=50%>
             <tr>
                 <td>
-                    <h2>` + BlogTitle + `</h2>
+                    <h2>Hello</h2>
                 </td>
             </tr>
             <tr>
                 <td colspan=2>
-                    <article> ` + BlogContent + `
-    
+                    <article> 
+                        Help
                     </article>
                 </td>
             </tr>
