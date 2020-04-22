@@ -1,4 +1,4 @@
-function LoadBlogPost(BlogTitle, BlogContent) {
+function LoadBlogPost(BlogTitle, BlogContent, References) {
     document.getElementById("addBlog").innerHTML +=
         `<head>
         <title>Sadie Garner</title>
@@ -30,11 +30,7 @@ function LoadBlogPost(BlogTitle, BlogContent) {
                     <td>
                         <h3>References</h3>
                         <article>
-                            [1] R. Anyoha, “The History of Artificial Intelligence,” 28 August 2017. [Online]. Available:
-                            http://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/. [Accessed 14 02 2020].
-                            <br><br>
-                            [2] D. Roos, “How Alan Turing and His Test Became AI Legend,” 22 May 2019. [Online]. Available:
-                            https://electronics.howstuffworks.com/future-tech/alan-turing-test.htm. [Accessed 14 02 2020].
+                            
                         </article>
                     </td>
                 </tr>
