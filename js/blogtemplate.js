@@ -6,6 +6,7 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <meta charset="utf-8">
         <meta name="author" content="Amy Pegram, 1825142">
         <script src="/WSOA3028A_1825142/js/back.js" async></script>
+        <link href="/WSOA3028A_1825142/css/stylesheet.css" rel="stylesheet">
     </head>
     
     <body onload='goBack()'>
