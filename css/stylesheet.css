@@ -6,14 +6,37 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 400px);
-    justify-items: center;
-    grid-auto-rows: 100px;
+    text-align: justify;
     justify-content: center;
     background-color: #F3EDEA;
     color: #444;
 }
 
-.c {
+.homeformat {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.pictureformat{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.articleformat {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.referencesformat {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
@@ -25,11 +48,8 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-    color: #293944;
+.nameOfPerson{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    color: #29242B;
-    font-size: 50px;
-
+    font-size: medium;
+    font-style: italic;
 }

@@ -9,29 +9,22 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
     </head>
     
     <body onload='goBack()'>
-        <hr>
-        <h1>` + BlogTitle + `</h1>
-        <hr>
+        <h1 style="text-align:center">` + BlogTitle + `</h1>
     
-        <table width=50%>
-            <tr>
-                <td colspan=2>
-                    <article> ` + BlogContent + `
+        <div class="container">
     
-                    </article>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>References</h3>
-                        <article>`
-        + References +
-        `</article>
-                    </td>
-                </tr>
-        </table>
+            <article class="articleformat"> ` + BlogContent + `
+    
+            </article>
+
+            <article class="referencesformat">
+            <h3 style="text-align:center">References</h3>`
+        + References + `
+        <br></br>
         <nav>
             <a href="./index.html">Back</a>
         </nav>
+    </article>
+        </div>
     </body>`;
 }
