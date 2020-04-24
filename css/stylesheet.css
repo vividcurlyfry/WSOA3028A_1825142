@@ -1,15 +1,14 @@
 @font-face {
     font-family: 'amyfontregular';
-    src: url('/WSOA3028A_1825142/css/Amyfont-Regular.tff') format('woff2'),
-         url('/WSOA3028A_1825142/css/Amyfont-Regular.off') format('woff');
+    src: url('/WSOA3028A_1825142/css/amyfont-regular-webfont.woff2') format('woff2'),
+         url('/WSOA3028A_1825142/css/amyfont-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
 body {
     background-color: #F3EDEA;
-    font-family: 'amyfontregular',Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding:0;
 }
@@ -57,6 +56,7 @@ body {
 
 h1 {
     color: #CE3D33;
+    font-family: 'amyfontregular', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nameOfPerson{
