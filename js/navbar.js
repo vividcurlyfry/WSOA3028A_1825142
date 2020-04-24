@@ -1,7 +1,7 @@
 function generateNav() {
     document.getElementsByTagName("nav")[0].innerHTML +=
-        `<div class="topnav navformat">
-        <a href="/WSOA3028A_1825142/index.html">HOME</a>
+        `<div class="topnav">
+        <a class="logoFormat" href="/WSOA3028A_1825142/index.html">Sadie Garner</a>
         <a href="/WSOA3028A_1825142/Victims/">VICTIMS</a>
         <a href="/WSOA3028A_1825142/Blogs/">BLOGS</a>
         </div>`;
