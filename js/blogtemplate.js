@@ -18,7 +18,7 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <article class="articleRow"> ` + BlogContent + `
         <br></br>
         <nav>
-            <a href="./index.html">Back</a>
+            <a href="/WSOA3028A_1825142/index.html">Back</a>
         </nav>
         </article>
     </body>`;

@@ -22,7 +22,7 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
         + References + `
         <br></br>
         <nav>
-            <a href="./index.html">Back</a>
+            <a href="/WSOA3028A_1825142/index.html">Back</a>
         </nav>
     </article>
         </div>
