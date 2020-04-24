@@ -9,9 +9,8 @@ function generateNav() {
 
 function addFooter() {
     document.getElementsByTagName("footer")[0].innerHTML +=
-        `<p>If you have any information relating to the the crimes, please don't hesitate to contact me:</p>
-        <ul style="list-style-type:none;">
-            <li>Sadie.Garner@hotmail.com</a>
-            <li>011 453 5608</a>
-        </ul>`
+
+        `<p style="display: inline; padding-right: 40px;">If you have any information relating to the the crimes, please don't hesitate to contact me:</p>
+        <p style="display: inline; padding-right: 50px;">Sadie.Garner@hotmail.com</p>
+        <p style="display: inline; padding-right: 50px;">011 453 5608</p>`
 }

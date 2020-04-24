@@ -5,11 +5,12 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <meta name="author" content="Amy Pegram, 1825142">
-        <script src="/WSOA3028A_1825142/js/back.js" async></script>
+        <script src="/WSOA3028A_1825142/js/navbar.js" async></script>
         <link href="/WSOA3028A_1825142/css/stylesheet.css" rel="stylesheet">
     </head>
     
-    <body onload='goBack()'>
+    <body onload='generateNav(); addFooter'>
+    <nav></nav>
     <h1 style="text-align:center">` + BlogTitle + `</h1>
     
     <div class="container">
