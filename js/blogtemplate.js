@@ -14,7 +14,7 @@ function LoadBlogPost(BlogTitle, BlogContent) {
     
     <div class="container">
 
-        <article class="articleformat"> ` + BlogContent + `
+        <article class="articleRow"> ` + BlogContent + `
         <br></br>
         <nav>
             <a href="./index.html">Back</a>

@@ -49,6 +49,32 @@ h1 {
 }
 
 .topnav {
-    background-color: #333;
     overflow: hidden;
+    text-align: right;
+    padding: 14px 16px;
+    font-size: 17px;
 }
+
+.topnav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #444;
+  }
+
+  .topnav a:hover{
+    color:  #CE3D33;
+    border-top: 2px solid #CE3D33;
+    border-bottom: 2px solid #CE3D33;
+  }
+
+  footer{
+    background-color: #CE3D33;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    height: 100px
+  }

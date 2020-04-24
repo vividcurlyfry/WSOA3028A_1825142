@@ -13,11 +13,11 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
     
         <div class="container">
     
-            <article class="articleformat"> ` + BlogContent + `
+            <article class="articleRow"> ` + BlogContent + `
     
             </article>
 
-            <article class="referencesformat">
+            <article class="referencesRow">
             <h3 style="text-align:center">References</h3>`
         + References + `
         <br></br>
