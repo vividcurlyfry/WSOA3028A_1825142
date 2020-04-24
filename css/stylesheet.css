@@ -2,7 +2,7 @@ body {
     background-color: #F3EDEA;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    padding-bottom:60px;
+    padding:0;
 }
 
 .container {
@@ -75,7 +75,7 @@ h1 {
   }
 
   footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 50px;
     bottom: 0;
