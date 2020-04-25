@@ -144,11 +144,12 @@ ul{
     margin-right: 1px;
 }
 
-.blogdrop ul li{
-  visibility: hidden;
-  opacity: 0;
-  display: none;
-}
+
+.blogdrop ul li:hover{
+    opacity: 1;
+    display: block;
+  }
+
 footer{
     position: relative;
     width: 100%;
