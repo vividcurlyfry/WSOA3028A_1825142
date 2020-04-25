@@ -1,9 +1,11 @@
 @font-face {
-    font-family: 'amyfontregular';
-    src: url('/WSOA3028A_1825142/css/amyfont-regular-webfont.woff2') format('woff2'),
-         url('/WSOA3028A_1825142/css/amyfont-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    @font-face {
+        font-family: 'amyfontregular';
+        src: url('/WSOA3028A_1825142/css/amyfont-regular-webfont.woff2') format('woff2'),
+             url('/WSOA3028A_1825142/css/amyfont-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
 
 }
 body {
