@@ -158,7 +158,7 @@ ul{
 }
 
 footer{
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 50px;
     margin-left: 0;
