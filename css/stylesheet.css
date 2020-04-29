@@ -28,6 +28,7 @@ body {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     position:relative;
 }
 
@@ -41,11 +42,14 @@ nav #home {
     font-family: 'amyfontregular';
     font-size: 30px;
     text-decoration: none;
-    color: black;
+    color: #444;
     float: left;
     justify-content: center;
-    padding: 20px;
-    margin-right: 20px;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: #F3EDEA;
 }
 
 nav ul li{
