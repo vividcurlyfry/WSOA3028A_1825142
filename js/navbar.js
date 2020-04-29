@@ -28,7 +28,6 @@ function generateNav() {
 
 function addFooter() {
     document.getElementsByTagName("footer")[0].innerHTML +=
-
         `<p style="display: inline; padding-right: 40px;">Contact me if you have information:</p>
         <p style="display: inline; padding-right: 50px;">Sadie.Garner@hotmail.com</p>
         <p style="display: inline; padding-right: 50px;">011 453 5608</p>`
