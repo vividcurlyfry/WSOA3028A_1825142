@@ -154,9 +154,11 @@ ul{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 50px;
+    margin-left: 0;
+    margin-right: 0;
     bottom: 0;
     font-family: 'amyfontregular', Verdana, Geneva, Tahoma, sans-serif;
     background-color: #CE3D33;
