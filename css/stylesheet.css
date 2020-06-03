@@ -17,6 +17,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+marquee{
+    margin-top : 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-weight: bold;
+    border-top: 3px solid #CE3D33;
+    border-bottom: 3px solid #CE3D33; 
+    padding: 10px;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -29,13 +38,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 51px;       
-    position:relative;
 }
 
 nav {
     width:100%;
-    height: 100px;
-    display: block;
+    height: 70px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.15);
+    background-color: #e5d9d3;
 }
 
 nav #home {
@@ -45,7 +54,9 @@ nav #home {
     color: #444;
     float: left;
     justify-content: center;
-    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 nav ul{
@@ -54,7 +65,10 @@ nav ul{
 
 nav ul li{
     float: right;
-    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
     z-index: 10;
 }
@@ -63,9 +77,9 @@ nav ul li a{
     display: block;
     text-decoration: none;
     padding-top: 10px;
-    border-top: 2px solid #F3EDEA;
+    border-top: 2px solid #e5d9d3;
     padding-bottom: 10px;
-    border-bottom: 2px solid #F3EDEA;
+    border-bottom: 2px solid #e5d9d3;
     color: black;
 }
 
@@ -110,13 +124,20 @@ nav ul li ul li:hover{
     background-color: #e5d9d3;
 }
 
-.headingRow{
+.slidesShowRow{
     grid-row: 1/2;
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headingRow{
+    grid-row: 3/4;
     grid-column: 1/3;
 }
 
 .pictureRow{
-    grid-row: 3/4;
+    grid-row: 5/6;
     grid-column: 1/3;
     margin-left: auto;
     margin-right: auto;
@@ -130,7 +151,7 @@ nav ul li ul li:hover{
 
 .homeArticleRow {
     grid-column: 1/3;
-    grid-row: 5/6;
+    grid-row: 7/8;
     position:relative;
 }
 
@@ -156,19 +177,4 @@ ul{
 .logoFormat{
     text-align:left;
 }
-
-footer{
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin-left: 0;
-    margin-right: 0;
-    bottom: 0;
-    font-family: 'amyfontregular', Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #CE3D33;
-    opacity: 0.8;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 25px;
-  }
   
