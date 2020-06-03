@@ -22,7 +22,7 @@ function generateNav() {
                         href="/WSOA3028A_1825142/Blogs/Blog6-CreativeBrainstorm.html">Creative Brainstorm</a>
                     </li>
                     <li><a style= "border: none"
-                        href="/WSOA3028A_1825142/Blogs/Blog7-ActuallyFiguringItOut.html">Acutally Figuring It Out</a>
+                        href="/WSOA3028A_1825142/Blogs/Blog7-ActuallyFiguringItOut.html">Actually Figuring It Out</a>
                     </li>
                 </ul>
             </li>
