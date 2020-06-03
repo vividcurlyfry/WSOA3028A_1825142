@@ -28,7 +28,7 @@ body {
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 51px;       
     position:relative;
 }
 
@@ -98,7 +98,7 @@ nav ul li ul li{
     padding: 5px;
     text-align: right;
     float: left;
-    width: 180px;
+    width: 280px;
     margin: 0;
 }
 
@@ -170,6 +170,5 @@ footer{
     text-align: center;
     font-weight: bold;
     padding-top: 25px;
-    margin-top: 46px;
   }
   
