@@ -18,12 +18,12 @@ body {
 }
 
 marquee{
-    margin-top : 10px;
+    margin-top : 0.6rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-weight: bold;
-    border-top: 3px solid #CE3D33;
-    border-bottom: 3px solid #CE3D33; 
-    padding: 10px;
+    border-top: 0.2rem solid #CE3D33;
+    border-bottom: 0.2rem solid #CE3D33; 
+    padding: 0.6rem;
 }
 
 .container {
@@ -34,28 +34,31 @@ marquee{
     justify-content: center;
     background-color: #F3EDEA;
     color: #444;
-    margin-top: 5px;
+    margin-top: 1rem;
     margin-left: auto;
-    margin-right: auto;     
+    margin-right: auto; 
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(0,0,0,.15);
+    background-color: #e5d9d3;   
+    padding: 1rem; 
 }
 
 nav {
     width:100%;
-    height: 70px;
-    box-shadow: 0 5px 5px rgba(0,0,0,.15);
+    height: 4.5rem;
+    box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,.15);
     background-color: #e5d9d3;
 }
 
 nav #home {
     font-family: 'amyfontregular';
-    font-size: 30px;
+    font-size: 25pt;
     text-decoration: none;
     color: #444;
     float: left;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
 }
 
 nav ul{
@@ -64,10 +67,10 @@ nav ul{
 
 nav ul li{
     float: right;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     position: relative;
     z-index: 10;
 }
@@ -75,43 +78,43 @@ nav ul li{
 nav ul li a{
     display: block;
     text-decoration: none;
-    padding-top: 10px;
-    border-top: 2px solid #e5d9d3;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e5d9d3;
+    padding-top: 0.5rem;
+    border-top: 0.1rem solid #e5d9d3;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.12rem solid #e5d9d3;
     color: black;
 }
 
 nav ul li a:hover{
-    border-top: 2px solid #CE3D33;
-    border-bottom: 2px solid #CE3D33;
+    border-top: 0.12rem solid #CE3D33;
+    border-bottom: 0.12rem solid #CE3D33;
 }
 
 nav ul li ul{
-    border-top: 2px solid #CE3D33;
-    border-bottom: 2px solid #CE3D33;
+    border-top: 0.12rem solid #CE3D33;
+    border-bottom: 0.12rem solid #CE3D33;
     display: none;
     position: absolute;
     right: 0;
     left: auto;
     text-align: right;
-    padding: 0px;
+    padding: 0;
 }
 
 nav ul li ul:hover{
-    border-top: 2px solid #CE3D33;
+    border-top: 0.12rem solid #CE3D33;
 }
 
 nav ul li:hover ul{
     display: block;
-    border-top: 2px solid #CE3D33;
+    border-top: 0.12rem solid #CE3D33;
 }
 
 nav ul li ul li{
-    padding: 5px;
+    padding: 0.3rem;
     text-align: right;
     float: left;
-    width: 280px;
+    width: 20rem;
     margin: 0;
 }
 
@@ -173,7 +176,7 @@ ul{
 .nameOfPerson{
     font-size: medium;
     font-style: italic;
-    margin: 10px;
+    margin: 0.5rem;
 }
 
 .logoFormat{

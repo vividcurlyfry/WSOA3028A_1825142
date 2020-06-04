@@ -14,7 +14,7 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <ul>
             <a id="home" href="/WSOA3028A_1825142/index.html">Sadie Garner</a>
             <li><a href="/WSOA3028A_1825142/Victims/">CONTACT</a></li>
-            <li><a style= "border-bottom: 2px solid #e5d9d3;" href="#">BLOGS</a>
+            <li><a style= "border-bottom: 0.12rem solid #e5d9d3;" href="#">BLOGS</a>
                 <ul>
                     <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog1-RRLibraryOfBabel.html">Library of Babel</a>
                     </li>
