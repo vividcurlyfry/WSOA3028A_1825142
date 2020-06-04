@@ -13,7 +13,7 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
     <nav>
     <ul>
         <a id="home" href="/WSOA3028A_1825142/index.html">Sadie Garner</a>
-        <li><a href="/WSOA3028A_1825142/Victims/">CONTACT</a></li>
+        <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
         <li><a style= "border-bottom: 0.12rem solid #e5d9d3;" href="#">BLOGS</a>
             <ul>
                 <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog1-RRLibraryOfBabel.html">Library of Babel</a>
@@ -40,19 +40,15 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
         <li><a href="/WSOA3028A_1825142/Victims/">VICTIMS</a></li>
     </ul>
     </nav>
-    <h1 style="text-align:center; margin:10px;">` + BlogTitle + `</h1>
 
-    <div class="container">
+    <section class="container">
+        <h1 class = "headingRow">` + BlogTitle + `</h1>
         <article class="articleRow"> ` + BlogContent + `
             <br></br>
         </article>
         <article class="referencesRow">
         <h3 style="text-align:center">References</h3>`
         + References + `
-        <br></br>
-        <nav>
-            <section>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></section>
-        </nav>
-    </div>
+    </section>
 </body>`;
 }

@@ -13,7 +13,7 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <nav>
         <ul>
             <a id="home" href="/WSOA3028A_1825142/index.html">Sadie Garner</a>
-            <li><a href="/WSOA3028A_1825142/Victims/">CONTACT</a></li>
+            <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
             <li><a style= "border-bottom: 0.12rem solid #e5d9d3;" href="#">BLOGS</a>
                 <ul>
                     <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog1-RRLibraryOfBabel.html">Library of Babel</a>
@@ -39,16 +39,10 @@ function LoadBlogPost(BlogTitle, BlogContent) {
             </li>
             <li><a href="/WSOA3028A_1825142/Victims/">VICTIMS</a></li>
         </ul>
-        </nav>
-        <h1 style="text-align:center; margin:10px;">` + BlogTitle + `</h1>
-    
-        <div class="container">
-            <article class="articleRow"> ` + BlogContent + `
-                <br></br>
-                <nav>
-                    <a href="/WSOA3028A_1825142/index.html">Back</a>
-                </nav>
-            </article>
-        </div>
+        </nav>   
+        <section class="container">
+            <h1 class = "headingRow">` + BlogTitle + `</h1>
+            <article class="articleRow"> ` + BlogContent + `</article>
+        </section>
     </body>`;
 }
