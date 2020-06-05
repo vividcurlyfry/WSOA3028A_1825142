@@ -35,8 +35,8 @@ marquee{
     background-color: #F3EDEA;
     color: #444;
     margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto; 
+    margin-left: 15%;
+    margin-right: 15%; 
     background-color: #e5d9d3;   
     padding: 1rem; 
 }
@@ -182,4 +182,3 @@ ul{
 .logoFormat{
     text-align:left;
 }
-  
