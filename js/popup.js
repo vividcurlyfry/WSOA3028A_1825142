@@ -1,7 +1,7 @@
 var dialog = document.querySelector("dialog");
-if (localStorage.getItem('popState') != 'shown') {
+if (sessionStorage.getItem('popState') != 'shown') {
     dialog.show();
-    localStorage.setItem('popState', 'shown')
+    sessionStorage.setItem('popState', 'shown')
 }
 
 function closing() {
