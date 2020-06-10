@@ -14,7 +14,7 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
     <ul>
         <a id="home" href="/WSOA3028A_1825142/index.html">Sadie Garner</a>
         <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
-        <li><a style= "border-bottom: 0.12rem solid #e5d9d3;" href="#">BLOGS</a>
+        <li><a style= "border-bottom: 0.12rem solid #F3EDEA;" href="#">BLOGS</a>
             <ul>
                 <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog1-RRLibraryOfBabel.html">Library of Babel</a>
                 </li>
@@ -35,6 +35,9 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
                 <li><a style= "border: none"
                     href="/WSOA3028A_1825142/Blogs/Blog7-ActuallyFiguringItOut.html">Actually Figuring It Out</a>
                 </li>
+                <li><a style= "border: none"
+                        href="/WSOA3028A_1825142/Blogs/Blog9-BeingIntoTrueCrime.html">Being “Into” True Crime But Also Believing All Cops Are Bastards</a>
+                </li>
             </ul>
         </li>
         <li><a href="/WSOA3028A_1825142/Victims/">VICTIMS</a></li>
@@ -43,8 +46,7 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
 
     <section class="container">
         <h1 class = "headingRow">` + BlogTitle + `</h1>
-        <article class="articleRow"> ` + BlogContent + `
-            <br></br>
+        <article class="articleRow" style=&quot margin-bottom: 1rem &quot> ` + BlogContent + `
         </article>
         <article class="referencesRow">
         <h3 style="text-align:center">References</h3>`

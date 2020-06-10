@@ -14,7 +14,7 @@ function LoadBlogPost(BlogTitle, BlogContent) {
         <ul>
             <a id="home" href="/WSOA3028A_1825142/index.html">Sadie Garner</a>
             <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
-            <li><a style= "border-bottom: 0.12rem solid #e5d9d3;" href="#">BLOGS</a>
+            <li><a style= "border-bottom: 0.12rem solid #F3EDEA;" href="#">BLOGS</a>
                 <ul>
                     <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog1-RRLibraryOfBabel.html">Library of Babel</a>
                     </li>
@@ -34,6 +34,9 @@ function LoadBlogPost(BlogTitle, BlogContent) {
                     </li>
                     <li><a style= "border: none"
                         href="/WSOA3028A_1825142/Blogs/Blog7-ActuallyFiguringItOut.html">Actually Figuring It Out</a>
+                    </li>
+                    <li><a style= "border: none"
+                        href="/WSOA3028A_1825142/Blogs/Blog9-BeingIntoTrueCrime.html">Being “Into” True Crime But Also Believing All Cops Are Bastards</a>
                     </li>
                 </ul>
             </li>
