@@ -49,17 +49,18 @@ function LoadBlogPost(BlogTitle, BlogContent, References, BlogLocation) {
                 </li>
                 <li><a href="/WSOA3028A_1825142/Victims/">VICTIMS</a></li>
             </ul>
-        </nav> 
-        
-        <section class="container">
-            <h1 class="headingRow">` + BlogTitle + `</h1>
-            <article class="articleRow" style="margin-bottom:1rem"> ` + BlogContent + `</article>`;
+        </nav>`
     if (References != '') {
         document.querySelector("body").innerHTML +=
-            ` <article class="referencesRow"><h3 style="text-align:center">References</h3>`
-            + References + ` </article></section>`
+            `<section class="container">
+            <h1 class="headingRow">` + BlogTitle + `</h1>
+            <article class="articleRow" style="margin-bottom:1rem"> ` + BlogContent + `</article>
+            <article class="referencesRow" > <h3 style="text-align:center">References</h3>`
+            + References + ` </article ></section > `
     }
     else {
-        document.querySelector("body").innerHTML += '</section>'
+        document.querySelector("body").innerHTML += `<section class="container">
+        <h1 class="headingRow">` + BlogTitle + `</h1>
+        <article class="articleRow" style="margin-bottom:1rem"> ` + BlogContent + `</article></section > `
     }
 };
