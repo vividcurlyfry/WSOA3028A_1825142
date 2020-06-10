@@ -12,7 +12,7 @@ function LoadBlogPost(BlogTitle, BlogContent, References, BlogLocation) {
         <meta property="og:title" content="Sadie Garner" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vividcurlyfry.github.io/WSOA3028A_1825142/`+ BlogLocation + `" />
-        <meta property="og:image" content="https://vividcurlyfry.github.io/WSOA3028A_1825142/Logo.png" />
+        <meta property="og:image" content="WSOA3028A_1825142/Logo.png" />
         <meta property="og:description" content="Blog: ` + BlogTitle + ` ">
 
         <link href="/WSOA3028A_1825142/css/stylesheet.css" rel="stylesheet">`;
