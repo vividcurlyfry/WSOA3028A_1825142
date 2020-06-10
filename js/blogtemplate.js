@@ -50,7 +50,7 @@ function LoadBlogPost(BlogTitle, BlogContent, References, BlogLocation) {
         
         <section class="container">
             <h1 class="headingRow">` + BlogTitle + `</h1>
-            <article class="articleRow" style=&quot margin-bottom: 1rem &quot> ` + BlogContent + `</article>`;
+            <article class="articleRow" style="margin-bottom:1rem"> ` + BlogContent + `</article>`;
     if (References != '') {
         document.querySelector("body").innerHTML +=
             ` <article class="referencesRow"><h3 style="text-align:center">References</h3>`
