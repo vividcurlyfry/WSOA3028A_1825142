@@ -1,7 +1,7 @@
 function generateNav() {
     document.getElementsByTagName("nav")[0].innerHTML +=
         `<ul>
-            <a id="home" href="/WSOA3028A_1825142/index.html">Sadie Garner</a>
+            <a id="home" href="/WSOA3028A_1825142/index.html"><img src="/WSOA3028A_1825142/Logo.png" alt="Logo: A picture of the scales of justice." height=30rem> Sadie Garner</a>
             <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
             <li><a style= "border-bottom: 0.12rem solid #F3EDEA;" href="#">BLOGS</a>
                 <ul>
