@@ -1,11 +1,14 @@
 function LoadBlogPost(BlogTitle, BlogContent, References, BlogLocation) {
     document.querySelector("head").innerHTML +=
-        ` <title>Sadie Garner</title>
+        `
+        <title>Sadie Garner</title>
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <meta name="author" content="Amy Pegram, 1825142">
         <meta name="description" content="Blog: `+ BlogTitle + `">
-        <link rel = "icon" href = "/WSOA3028A_1825142/Logo.png" type = "image/png">
+        <link rel="icon" href="/WSOA3028A_1825142/Logo.png" type="image/png">
+
         <meta property="og:title" content="Sadie Garner" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vividcurlyfry.github.io/WSOA3028A_1825142/`+ BlogLocation + `" />
