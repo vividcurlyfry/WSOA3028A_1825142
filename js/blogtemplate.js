@@ -1,6 +1,6 @@
-function LoadBlogPost(BlogTitle, BlogContent, BlogLocation) {
+function LoadBlogPost(BlogTitle, BlogContent, References, BlogLocation) {
     document.querySelector("head").innerHTML +=
-        `<title>Sadie Garner</title>
+        ` <title>Sadie Garner</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <meta name="author" content="Amy Pegram, 1825142">
@@ -13,10 +13,8 @@ function LoadBlogPost(BlogTitle, BlogContent, BlogLocation) {
         <meta property="og:description" content="Blog: ` + BlogTitle + ` ">
 
         <link href="/WSOA3028A_1825142/css/stylesheet.css" rel="stylesheet">`;
-
     document.querySelector("body").innerHTML +=
-        `
-        <nav>
+        `<nav>
             <ul>
                 <a id="home" href="/WSOA3028A_1825142/index.html"><img src="/WSOA3028A_1825142/Logo.png" alt="Logo: A picture of the scales of justice." height=30rem> Sadie Garner</a>
                 <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
@@ -25,15 +23,15 @@ function LoadBlogPost(BlogTitle, BlogContent, BlogLocation) {
                         <li><a style="border: none" href="/WSOA3028A_1825142/Blogs/Blog1-RRLibraryOfBabel.html">Library of Babel</a>
                         </li>
                         <li><a style="border: none" href="/WSOA3028A_1825142/Blogs/Blog2-Character Description.html">Character
-        Description</a>
+            Description</a>
                         </li>
                         <li><a style="border: none" href="/WSOA3028A_1825142/Blogs/Blog3-RRComputingMachiney.html">Computing Machinery and
-        Intelligence</a></li>
+            Intelligence</a></li>
                         <li><a style="border: none" href="/WSOA3028A_1825142/Blogs/Blog4-WhatAreBrowsers.html">What are Browsers and
-        URLs?</a>
+            URLs?</a>
                         </li>
                         <li> <a style="border: none" href="/WSOA3028A_1825142/Blogs/Blog5-Accessibility.html">The Importance of
-        Accessibility</a>
+            Accessibility</a>
                         </li>
                         <li><a style="border: none"
                             href="/WSOA3028A_1825142/Blogs/Blog6-CreativeBrainstorm.html">Creative Brainstorm</a>
@@ -48,9 +46,17 @@ function LoadBlogPost(BlogTitle, BlogContent, BlogLocation) {
                 </li>
                 <li><a href="/WSOA3028A_1825142/Victims/">VICTIMS</a></li>
             </ul>
-        </nav>
+        </nav> 
+        
         <section class="container">
             <h1 class="headingRow">` + BlogTitle + `</h1>
-            <article class="articleRow"> ` + BlogContent + `</article>
-        </section>`;
-}
+            <article class="articleRow" style=&quot margin-bottom: 1rem &quot> ` + BlogContent + `</article>`;
+    if (References != '') {
+        document.querySelector("body").innerHTML +=
+            ` <article class="referencesRow"><h3 style="text-align:center">References</h3>`
+            + References + ` </article></section>`
+    }
+    else {
+        document.querySelector("body").innerHTML += '</section>'
+    }
+};
