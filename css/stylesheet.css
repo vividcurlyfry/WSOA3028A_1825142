@@ -57,7 +57,7 @@ nav #home {
     font-family: 'amyfontregular';
     font-size: 25pt;
     text-decoration: none;
-    color: #444;
+    color: #293944;
     float: left;
     justify-content: center;
     margin-top: 0.5rem;
@@ -166,7 +166,7 @@ nav ul li ul li:hover{
 }
 
 h1 {
-    color: #CE3D33;
+    color: #293944;
     font-family: 'amyfontregular', Verdana, Geneva, Tahoma, sans-serif;
     margin: 1rem;
     font-size: 28pt;
@@ -211,7 +211,7 @@ ul{
         width: 21rem;
         left: 0;
         margin-left: -9rem;
-        border:  0.12rem solid #CE3D33;
+        border:
     }
 
     .container{
