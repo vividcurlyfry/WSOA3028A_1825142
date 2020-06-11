@@ -7,7 +7,7 @@ function generateNav() {
                 <ul>
                     <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog1-RRLibraryOfBabel.html">Library of Babel</a>
                     </li>
-                    <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog2-Character Description.html">Character
+                    <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog2-CharacterDescription.html">Character
                     Description</a>
                     </li>
                     <li><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog3-RRComputingMachiney.html">Computing Machinery and
