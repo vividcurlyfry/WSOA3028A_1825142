@@ -189,3 +189,46 @@ ul{
 .logoFormat{
     text-align:left;
 }
+
+/*phone*/
+@media(min-width: 320px) and (max-width: 480px){
+    h1{
+        font-size: 25pt;
+    }
+    
+    .container{
+        width: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav #home {
+        font-size: 25pt;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    cite{
+        word-break:break-all;
+    }
+
+    nav{
+        height: 8rem;
+        width: 22.5rem;
+    }
+}
+
+/*tablet*/
+@media(max-width: 1024px) and (orientation:portrait){
+    
+    .homePanel {
+        margin-left: 10%;
+        width: 75%;
+    }
+    
+    .homeDivide {
+        padding-top: 1rem;
+        font-size: larger
+    }
+}
+
