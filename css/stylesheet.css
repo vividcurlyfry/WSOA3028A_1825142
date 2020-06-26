@@ -22,13 +22,14 @@ p{
     margin-bottom: 1rem;
 }
 
-marquee{
+.banner{
     margin-top : 0.6rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-weight: bold;
     border-top: 0.2rem solid #CE3D33;
     border-bottom: 0.2rem solid #CE3D33; 
     padding: 0.6rem;
+    text-align: center;
 }
 
 .container {
