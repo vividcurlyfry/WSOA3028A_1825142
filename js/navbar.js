@@ -41,6 +41,11 @@ function generateNav() {
                     </li>
                 </ul>
             </li>
-            <li><a href="/WSOA3028A_1825142/Victims/">VICTIMS</a></li>
+            <li><a style= "border-bottom: 0.12rem solid #F3EDEA;" href="#">VICTIMS</a>
+            <ul>
+                <li><a style= "border: none" href="/WSOA3028A_1825142/Victims/">Victim's Page</a>
+                </li>
+                <li><a style= "border: none" href="/WSOA3028A_1825142/Victims/UpdateBlogButton.html">Fake Blog Update</a>
+            </ul>
         </ul>`
 }
