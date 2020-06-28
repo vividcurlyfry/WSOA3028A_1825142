@@ -77,7 +77,6 @@ nav ul li{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     position: relative;
-    z-index: 10;
 }
 
 nav ul li a{
@@ -109,6 +108,28 @@ nav ul li ul{
 nav ul li:hover ul{
     display: block;
     border-top: 0.12rem solid #CE3D33;
+    z-index: 100000;
+}
+
+nav ul li:hover #Creative{
+    width: 17rem;
+
+}
+
+nav ul li:hover #Victims{
+    width: 11rem;
+}
+
+nav ul li ul li{
+    width: 19rem;
+}
+
+#VictimsList{
+    width: 10rem;
+}
+
+#CreativeList{
+    width: 16rem;
 }
 
 nav ul li ul li{
@@ -201,6 +222,14 @@ ul{
     margin-top: 1rem;
     margin-left: 8rem;
 }
+/*tablet*/
+@media(min-width: 481px) and (max-width: 768px){
+    nav{
+        height: 8rem;
+        width: 100%;
+        margin-left: 0;
+    }
+}
 
 /*phone*/
 @media(min-width: 320px) and (max-width: 480px){
@@ -209,10 +238,35 @@ ul{
     }
 
     nav ul li:hover ul{
-        width: 21rem;
+        width: 20rem;
         left: 0;
-        margin-left: -9rem;
-        border:
+        margin-left: 0;
+        z-index: 100000;
+    }
+
+    nav ul li:hover #Creative{
+        width: 12rem;
+        left: 0;
+        margin-left: 0;
+        z-index: 100000;
+    }
+
+    nav ul li:hover #Victims{
+        width: 10rem;
+        margin-left: -5rem;
+        z-index: 100000;
+    }
+
+    nav ul li ul li{
+        width: 19rem;
+    }
+
+    #VictimsList{
+        width: 9rem;
+    }
+
+    #CreativeList{
+        width: 11rem;
     }
 
     .container{
@@ -232,7 +286,7 @@ ul{
     }
 
     nav{
-        height: 8rem;
+        height: 12rem;
         width: 100%;
         margin-left: 0;
     }
@@ -247,3 +301,17 @@ ul{
     }
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

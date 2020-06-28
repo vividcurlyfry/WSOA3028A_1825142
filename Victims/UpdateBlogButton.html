@@ -25,7 +25,20 @@
 
 <body onload='generateNav();'>
     <nav></nav>
-    <button onclick="sendEmail()" style="padding: 0.2rem;">Send Email</button>
+    <section class="container">
+        <h1 class="headingRow">Recieve email updates on the case!</h1>
+        <div class="articleRow" style="column-span: 3; margin-left: auto; margin-right: auto;">
+            <label for="email">Enter
+                your
+                email:</label>
+            <input type="email" id="email" name="email" style="width:15rem;"> </div>
+        <div class="articleRow"
+            style="grid-row:7/8; column-span: 3; margin-left: auto; margin-right: auto; margin-top:3rem">
+            <p style="font-size: x-small;">Note: By clicking OK, you are allowing
+                SadieGarner.com to send emails to this address.</p>
+            <button name="emailButton" onclick="sendEmail()" style="width:6rem; grid-row:8/9;">OK</button>
+        </div>
+    </section>
 </body>
 
 </html>
