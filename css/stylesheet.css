@@ -117,7 +117,7 @@ nav ul li:hover #Creative{
 }
 
 nav ul li:hover #Victims{
-    width: 11rem;
+    width: 10rem;
 }
 
 nav ul li ul li{
@@ -125,7 +125,7 @@ nav ul li ul li{
 }
 
 #VictimsList{
-    width: 10rem;
+    width: 9rem;
 }
 
 #CreativeList{
@@ -237,13 +237,20 @@ ul{
         font-size: 25pt;
     }
 
+    .label{
+        text-align: left;
+    }
+    
     nav ul li:hover ul{
-        width: 20rem;
-        left: 0;
-        margin-left: 0;
+        width: 10rem;
         z-index: 100000;
     }
 
+    nav ul li ul li{
+        width: 9rem;
+    }
+
+    /*
     nav ul li:hover #Creative{
         width: 12rem;
         left: 0;
@@ -257,17 +264,13 @@ ul{
         z-index: 100000;
     }
 
-    nav ul li ul li{
-        width: 19rem;
-    }
-
     #VictimsList{
         width: 9rem;
     }
 
     #CreativeList{
         width: 11rem;
-    }
+    }*/
 
     .container{
         width: 80%;

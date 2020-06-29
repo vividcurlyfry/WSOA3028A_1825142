@@ -2,7 +2,6 @@ function generateNav() {
     document.querySelector("nav").innerHTML +=
         `<ul>
             <a id="home" href="/WSOA3028A_1825142/index.html"><img src="/WSOA3028A_1825142/Logo.png" alt="Logo: A picture of the scales of justice." height=30rem> Sadie Garner</a>
-            <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
             <li><a style= "border-bottom: 0.12rem solid #F3EDEA;" href="#">CREATIVE</a>
                 <ul id = "Creative">
                     <li id = "CreativeList"><a style= "border: none" href="/WSOA3028A_1825142/Blogs/Blog2-CharacterDescription.html">Character
@@ -48,6 +47,7 @@ function generateNav() {
                     </li>
                 </ul>
             </li>
+            <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
             <li id = "Victims"><a style= "border-bottom: 0.12rem solid #F3EDEA;" href="#">VICTIMS</a>
             <ul id = "Victims">
                 <li id = "VictimsList"><a style= "border: none" href="/WSOA3028A_1825142/Victims/">Victims</a>
