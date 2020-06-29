@@ -40,9 +40,6 @@ function generateNav() {
                         href="/WSOA3028A_1825142/Blogs/Blog9-Tweet.html">Analysing A Tweet</a>
                     </li>
                     <li><a style= "border: none"
-                        href="/WSOA3028A_1825142/Blogs/Blog10-BeingIntoTrueCrime.html">Being “Into” True Crime But Also Believing All Cops Are Bastards</a>
-                    </li>
-                    <li><a style= "border: none"
                         href="/WSOA3028A_1825142/Blogs/Blog12-RRTowardsAStudyOfInfo.html">Close Reading - Towards a study of information geographies: (im)mutable augmentations and a mapping of the geographies of information</a>
                     </li>
                     <li><a style= "border: none"
