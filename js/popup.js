@@ -5,6 +5,6 @@ if (sessionStorage.getItem('popState') != 'shown') {
 }
 
 function closing() {
-    style.display = "none";
+    alert("it should close");
     dialog.close();
 }
