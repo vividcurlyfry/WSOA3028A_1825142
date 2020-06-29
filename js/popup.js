@@ -8,5 +8,5 @@ function closing() {
     alert("it should close");
     dialog.close();
     var element = document.getElementById("dialog");
-    element.parentNode.removeChild("dialog");
+    element.remove();
 }
