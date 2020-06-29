@@ -5,7 +5,9 @@ if (sessionStorage.getItem('popState') != 'shown') {
 }
 
 function closing() {
-    alert("it should close");
     dialog.close();
-    var myobj = document.getElementById("closeDialog").remove();
+    /*This was my attempt to try to get this popup to close in microsoft edge and internet explorer. From the research I did it seems that there could be a bug preventing dialogs from closing, which caused my issue.*/
+    var myobj = document.getElementById("closeDialog");
+    alert(myobj);
+    myobj.remove();
 }
