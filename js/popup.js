@@ -7,6 +7,5 @@ if (sessionStorage.getItem('popState') != 'shown') {
 function closing() {
     alert("it should close");
     dialog.close();
-    var myobj = document.getElementById("closeDialog");
-    myobj.remove();
+    $('.removeme').remove();
 }
