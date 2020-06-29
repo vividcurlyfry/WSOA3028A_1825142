@@ -4,7 +4,7 @@ function LoadBlogPost(BlogTitle, BlogContent, References) {
             `<section class="container">
             <h1 class="headingRow">` + BlogTitle + `</h1>
             <article class="articleRow" style="margin-bottom:1rem"> ` + BlogContent + `</article>
-            <article class="referencesRow" > <h3 style="text-align:center">References</h3>`
+            <article class="referencesRow" style="word-wrap: break-word;"> <h3 style="text-align:center">References</h3>`
             + References + ` </article ></section > `
     }
     else {

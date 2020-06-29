@@ -45,6 +45,15 @@ function generateNav() {
                     <li><a style= "border: none"
                         href="/WSOA3028A_1825142/Blogs/Blog12-RRTowardsAStudyOfInfo.html">Close Reading - Towards a study of information geographies: (im)mutable augmentations and a mapping of the geographies of information</a>
                     </li>
+                    <li><a style= "border: none"
+                        href="/WSOA3028A_1825142/Blogs/Blog13-TikTokShadowBanning.html">Tik Tok Shadow Banning Black Creators</a>
+                    </li>
+                    <li><a style= "border: none"
+                        href="/WSOA3028A_1825142/Blogs/Blog14-RRCriminalMachineLearning.html">Close Reading - Criminal machine learning - Carl Bergstrom and Jevin West</a>
+                    </li>
+                    <li><a style= "border: none"
+                        href="/WSOA3028A_1825142/Blogs/Blog15-ExternalDependency.html">My External Dependency Implementation</a>
+                    </li>
                 </ul>
             </li>
             <li><a href="/WSOA3028A_1825142/contact.html">CONTACT</a></li>
