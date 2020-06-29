@@ -8,6 +8,5 @@ function closing() {
     dialog.close();
     /*This was my attempt to try to get this popup to close in microsoft edge and internet explorer. From the research I did it seems that there could be a bug preventing dialogs from closing, which could have caused my issue.*/
     var myobj = document.getElementById("closeDialog");
-    alert(myobj);
     myobj.remove();
 }
